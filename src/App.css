@@ -1,0 +1,82 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.maindiv {
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 14px;
+  height: 345px;
+  width: 350px;
+  padding-top: 20px;
+  vertical-align: top;
+  background-color: #242424;
+}
+
+.texts {
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.inputs{
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 10px;
+}
+.mybutton{
+  width: 350px;
+  font-size: 22px;
+  border: 2px solid gray;
+  margin-top: 15px;
+  border-radius: 15px;
+}
+.result{
+  border: 2px solid white;
+  border-radius: 15px;
+  margin-top: 10px;
+  padding-left: 10px;
+  font-size: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: rgb(139, 123, 197);
+  
+}
